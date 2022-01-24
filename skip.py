@@ -36,15 +36,19 @@ while True:
     im1 = np.asarray(im1.convert(mode = 'L'))
     check(template1)
     if flag == 1:
+        flag = 0
         continue
     check(template2)
     if flag == 1:
+        flag = 0
         continue
     check(template3)
     if flag == 1:
+        flag = 0
         continue
     check(template4)
     if flag == 1:
+        flag = 0
         continue
 
     # Stopping criteria
